@@ -1,0 +1,601 @@
+@media screen and (max-width: 500px) {
+
+    
+
+    body {
+    max-width: auto;
+   }
+
+   header {
+    width: 100%;
+    height: 80px;
+    background-color: #FFFFFF;
+    position: fixed;
+    z-index: 1;
+}
+
+
+  nav.active ul{
+      display: block;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      height: auto;
+      position: absolute;
+      background-color: #FFFFFF;
+      top: 80px;
+      visibility: visible;
+      transition: 1s;
+      
+  }
+
+  nav ul {
+      display: none;
+  }
+  
+
+  nav li {
+      width: 100%;
+  }
+
+  #btn_mobile {
+      width: 34px;
+      height: auto;
+      color: #000;
+      text-align: center;
+      margin-right: 24px;
+      
+  }
+
+  .fa-bars:before, .fa-navicon:before {
+      font-size: 32px;
+      
+  }
+
+
+
+    #home_projeto {
+        height: 150vh;
+    }
+
+    .info_projeto {
+        flex-wrap: wrap;
+    }
+
+    .info_projeto1 {
+        width: 100%;
+        height: 50%;
+    }
+
+    .info_projeto_container1 {
+        width: 80%;
+        align-content: flex-end;
+    }
+
+    .info_projeto_container1 h1 {
+        font-size: 40px;
+        margin-bottom: 32px;
+    }
+
+    .info_projeto_container1 h3 {
+        font-size: 32px;
+        margin-bottom: 32px;
+    }
+
+    .info_projeto_container1 h5 {
+        font-size: 16px;
+    }
+
+    .info_projeto2 {
+        width: 100%;
+        height: 50%;
+    
+        
+    }
+
+
+    #escopo_projeto {
+        width: 100%;
+    }
+
+    .header_escopo_projeto {
+        width: 90%;
+        margin-bottom: 48px;
+        margin-top: 48px;
+    }
+
+    .header_escopo_projeto h1  {
+        font-size: 32px;
+        
+    }
+
+    .body_escopo_projeto {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: initial;
+    }
+
+    .body_escopo_projeto_container {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+    .body_escopo_projeto_container_desc h2 {
+        font-size: 20px;
+    }
+
+    .body_escopo_projeto_container_fase div>h3 {
+        margin-right: 16px;
+    }
+
+    .body_escopo_projeto_container_fase div>p { 
+        margin-right: 16px;
+    }
+
+
+
+    .aparelhos_projeto_principal {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aparelhos_projeto_container01 {
+        margin: 0;
+    }
+
+    .aparelhos_projeto_container01  {
+        width: 100%;
+    }
+
+    .aparelhos_projeto_container01 h2 {
+        width: 100%;
+    }
+
+
+    .aparelhos_projeto_container02 {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .aparelhos_projeto_container02 h2 {
+        font-size:  32px;
+        margin-top: 32px;
+    }
+
+    .aparelhos_projeto_container02_info {
+        justify-content: center;
+    }
+
+
+    .aparelhos_projeto_container02_info h3 {
+        margin-bottom: 16px;
+    }
+
+
+    .aparelhos_projeto_container02_info div {
+        margin: 32px 0 32px 0;
+        width: 40%;
+    }
+
+    .aparelhos_projeto_frase {
+        margin-left: 0;
+        width: 90%;
+        margin-top: 58px;
+        text-align: center;
+    }
+
+
+
+
+
+    #a_hausenn h1 {
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+
+    .card_a_hausenn1 {
+        flex-wrap: wrap;
+        width: 99.9vw;
+        height: auto;
+        border-radius: 0 0 0 0;
+    }
+    .img_a_hausenn img {
+        width: 99.9vw;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .card_a_hausenn2 {
+        flex-wrap: wrap;
+        width: 99.9vw;
+        height: auto;
+        border-radius: 0 0 0 0;
+    }
+    .card_a_hausenn3 {
+        flex-wrap: wrap;
+        width: 99.9vw;
+        height: auto;
+        border-radius: 0 0 0 0;
+    }
+    .card_a_hausenn4 {
+        flex-wrap: wrap;
+        width: 99.9vw;
+        height: auto;
+        border-radius: 0 0 0 0;
+    }
+
+    #nosso_squad h1 {
+        font-size: 32px;
+    }
+
+    #nosso_squad h2 {
+        margin-bottom: 2em;
+    }
+
+    .squad_grid {
+        margin-left: 0;
+        margin-right: 0;
+        justify-content:initial;
+    }
+    .squad_grid div {
+        width: 40%;
+    }
+
+    .squad_grid p{ 
+        width: 100%;
+        font-size: 14px;
+    }
+
+    #nosso_squad h3 {
+        font-size: 14px;
+        width: 90%;
+    }
+
+
+    #one {
+        height: auto;
+    }
+    #one h1 {  
+    font-size: 26px;
+    line-height: 40px;
+    }
+
+
+    .background_one {
+        width: 100%;
+        height: 312px;
+        object-fit: cover;
+        
+
+    }
+
+    .img_one {
+        position: absolute;
+        width: 95%;
+        height: auto;
+        left: 8px;
+        top: 80px;
+    }
+
+    #one h2 {
+        font-size: 26px;
+        line-height: 32px;
+        width: 90%;
+    }
+
+
+    .container_cards {
+        justify-content: space-evenly;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 4em;
+    }
+    
+
+
+    .card {
+        width:40% ;
+        height: 250px ;
+        
+    }
+
+   
+
+    .card_retangulo {
+        width: 50%;
+    }
+
+    .card p {
+        font-size: 14px;
+
+    }
+
+    .card img {
+        margin-top: 40px;
+    }
+
+    .cards_titulo {
+        display: none;
+    }
+
+    #lumina {
+        min-height: 60vh;
+    }
+    .lumina_container {
+        width: 90%;
+    }
+
+    .lumina_title {
+        letter-spacing: 1.5em;
+    }
+
+    .background_lumina {
+        width: auto;
+        height: 530px;
+    }
+
+    .img_lumina {
+        max-width: 400px;
+        max-height: auto;
+        top: 15em;
+        left: 0;
+    }
+
+    .container_lumina{
+        background: #FFFFFF;
+        width: auto;
+        height: 500px;
+    }
+
+    .container_lumina_texto {
+        display: none;
+    }
+
+
+    .cards_texto2 h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .card_horizontal {
+        flex-wrap: wrap;
+        height: auto;
+        width: 80%;
+    }
+
+    .container_card_horizontal {
+        margin: 0 0 0 0;
+    }
+
+
+    .cards_hausenn_img {
+        margin: 3em;
+        width: 80%;
+        height: auto;
+    }
+
+
+    .app_hausenn_titulo h1 {
+       
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .app_hausenn_titulo2 h1 {
+       
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .app_hausenn_img {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin-top: 3em;
+        margin-bottom: 2em;
+    }
+
+    #garantia_assistencia {
+        height: auto;
+    }
+    .container__ {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    footer {
+        flex-wrap: wrap;
+        height: 24em;
+    }
+
+    .logo_endereco {
+        width: 100%;
+        margin: 0;
+    }
+
+    .midias_sociais {
+        width: 100%;
+    }
+
+    .copyright {
+        width: 100%;
+    }
+
+    .card_a_hausenn1 h2 {
+        font-size: 24px;
+    }
+
+    .card_a_hausenn2 h2 {
+        font-size: 24px;
+    }
+
+    .card_a_hausenn3 h2 {
+        font-size: 24px;
+    }
+
+    .card_a_hausenn4 h2 {
+        font-size: 24px;
+    }
+
+    .logo_hausenn {
+        width: 170px;
+    }
+    .logo_pado {
+        width: 150px;
+    }
+
+    .app_hausenn_container {
+        height: 90vh;
+    }
+
+
+    .app_hausenn_container_img {
+        width: 0vw;
+    }
+
+    .app_hausenn_container img {
+        height: 520px;
+        left: 0;
+        display: none;
+
+    }
+
+    .app_hausenn_container_cards {
+        width: 88vw;
+        
+    }
+
+    .app_hausenn_container_txt {
+        width: 100%;
+    }
+
+    .app_hausenn_container_txt h2 {
+        width: 90%;
+    }
+
+    .app_hausenn_container_card_img_1 {
+        width: 100%;
+    }
+
+    .app_hausenn_container_card_img_2 {
+        width: 100%;
+    }
+
+    .app_hausenn_container_card_img_3 {
+        width: 100%;
+    }
+
+    .app_hausenn_container_card_img_4 {
+        width: 100%;
+    }
+
+
+
+    #garantia_assistencia {
+        min-height: 160vh;
+        height: auto;
+    }
+
+    #garantia_assistencia {
+        flex-wrap: wrap;
+        align-items: flex-end;
+    }
+
+    .container_garantia {
+        width: 100%;
+    }
+
+    .one_texto2 {
+        font-size: 18px;
+        margin-top: 6em;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .card_investimento1 {
+        margin: 3em;
+    }
+
+    .card_investimento_container2 div {
+        height: 35%;
+    }
+
+}
+
+
+@media screen and (min-width:601px) and (max-width:1279px) {
+
+    .app_hausenn_container_cards {
+        width: 50vw;
+
+    }
+
+    .app_hausenn_container_img {
+        width: 40vw;
+    }
+
+    .container_card_horizontal {
+        margin: 0 12em 6em 12em;
+    }
+    
+    .logo_cabecalho {
+        width: 20%;
+    }
+
+    .menu ul {
+        margin-right: 1em;
+        
+    }
+    
+    .info_projeto_container1 h1 {
+        font-size: 60px;
+    }
+
+    .header_escopo_projeto {
+        margin: 24px 0;
+    }
+
+    .card_a_hausenn1, .card_a_hausenn2, .card_a_hausenn3, .card_a_hausenn4 {
+    display: flex;
+    margin-bottom: 4em;
+    width: 627px;
+    margin-left: 2em;
+    margin-right: 2em;
+    min-height: 393px;
+    height: auto;
+    /* justify-items: center; */
+    background-color: #252525;
+    border-radius: 0px 24px 24px 0px;
+    flex-wrap: wrap;
+    }
+
+    .container_cards {
+        margin-left: 16em;
+        margin-right: 16em;
+    }
+
+    #one h1 {
+        font-size: 40px;
+    }
+
+    .app_hausenn_container img {
+        height: 440px;
+    }
+
+    #garantia_assistencia{
+        flex-wrap: wrap;
+    }
+
+    .container_garantia  {
+        width: 33%;
+        margin-top: 5em;
+    }
+
+
+
+}
